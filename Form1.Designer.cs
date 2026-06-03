@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button3 = new Button();
             btnPlayPause = new Button();
-            button1 = new Button();
             fileToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
             compressToToolStripMenuItem = new ToolStripMenuItem();
@@ -39,30 +37,24 @@
             dMSystemToolStripMenuItem = new ToolStripMenuItem();
             nQSystemToolStripMenuItem = new ToolStripMenuItem();
             openCompressFileToolStripMenuItem = new ToolStripMenuItem();
+            previewToolStripMenuItem = new ToolStripMenuItem();
+            aDMPreviewToolStripMenuItem = new ToolStripMenuItem();
+            dMPreviewToolStripMenuItem = new ToolStripMenuItem();
+            nQPreviewToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1 = new MenuStrip();
-            progressBar1 = new ProgressBar();
+            resetToolStripMenuItem = new ToolStripMenuItem();
+            saveToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(button3);
             panel1.Controls.Add(btnPlayPause);
-            panel1.Controls.Add(button1);
             panel1.Location = new Point(-2, 265);
             panel1.Name = "panel1";
             panel1.Size = new Size(803, 100);
             panel1.TabIndex = 0;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(582, 30);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
             // 
             // btnPlayPause
             // 
@@ -74,18 +66,9 @@
             btnPlayPause.UseVisualStyleBackColor = true;
             btnPlayPause.Click += button2_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(140, 30);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // fileToolStripMenuItem
             // 
-            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, compressToToolStripMenuItem, openCompressFileToolStripMenuItem });
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, compressToToolStripMenuItem, openCompressFileToolStripMenuItem, previewToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             fileToolStripMenuItem.Size = new Size(37, 20);
             fileToolStripMenuItem.Text = "File";
@@ -132,9 +115,37 @@
             openCompressFileToolStripMenuItem.Text = "Open Compress File";
             openCompressFileToolStripMenuItem.Click += openCompressFileToolStripMenuItem_Click;
             // 
+            // previewToolStripMenuItem
+            // 
+            previewToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aDMPreviewToolStripMenuItem, dMPreviewToolStripMenuItem, nQPreviewToolStripMenuItem });
+            previewToolStripMenuItem.Name = "previewToolStripMenuItem";
+            previewToolStripMenuItem.Size = new Size(180, 22);
+            previewToolStripMenuItem.Text = "Preview ";
+            // 
+            // aDMPreviewToolStripMenuItem
+            // 
+            aDMPreviewToolStripMenuItem.Name = "aDMPreviewToolStripMenuItem";
+            aDMPreviewToolStripMenuItem.Size = new Size(148, 22);
+            aDMPreviewToolStripMenuItem.Text = "ADM Preview ";
+            aDMPreviewToolStripMenuItem.Click += aDMPreviewToolStripMenuItem_Click;
+            // 
+            // dMPreviewToolStripMenuItem
+            // 
+            dMPreviewToolStripMenuItem.Name = "dMPreviewToolStripMenuItem";
+            dMPreviewToolStripMenuItem.Size = new Size(148, 22);
+            dMPreviewToolStripMenuItem.Text = "DM Preview ";
+            dMPreviewToolStripMenuItem.Click += dMPreviewToolStripMenuItem_Click;
+            // 
+            // nQPreviewToolStripMenuItem
+            // 
+            nQPreviewToolStripMenuItem.Name = "nQPreviewToolStripMenuItem";
+            nQPreviewToolStripMenuItem.Size = new Size(148, 22);
+            nQPreviewToolStripMenuItem.Text = "NQ Preview ";
+            nQPreviewToolStripMenuItem.Click += nQPreviewToolStripMenuItem_Click;
+            // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, resetToolStripMenuItem, saveToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -142,21 +153,25 @@
             menuStrip1.Text = "menuStrip1";
             menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
-            // progressBar1
+            // resetToolStripMenuItem
             // 
-            progressBar1.Location = new Point(23, 239);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(738, 20);
-            progressBar1.TabIndex = 2;
-            progressBar1.Visible = false;
-            progressBar1.Click += progressBar1_Click;
+            resetToolStripMenuItem.Name = "resetToolStripMenuItem";
+            resetToolStripMenuItem.Size = new Size(44, 20);
+            resetToolStripMenuItem.Text = "reset";
+            resetToolStripMenuItem.Click += resetToolStripMenuItem_Click;
+            // 
+            // saveToolStripMenuItem
+            // 
+            saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            saveToolStripMenuItem.Size = new Size(43, 20);
+            saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(progressBar1);
             Controls.Add(panel1);
             Controls.Add(menuStrip1);
             Name = "Form1";
@@ -172,9 +187,7 @@
         #endregion
 
         private Panel panel1;
-        private Button button3;
         private Button btnPlayPause;
-        private Button button1;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem openToolStripMenuItem;
         private MenuStrip menuStrip1;
@@ -183,6 +196,11 @@
         private ToolStripMenuItem openCompressFileToolStripMenuItem;
         private ToolStripMenuItem dMSystemToolStripMenuItem;
         private ToolStripMenuItem nQSystemToolStripMenuItem;
-        private ProgressBar progressBar1;
+        private ToolStripMenuItem previewToolStripMenuItem;
+        private ToolStripMenuItem aDMPreviewToolStripMenuItem;
+        private ToolStripMenuItem dMPreviewToolStripMenuItem;
+        private ToolStripMenuItem nQPreviewToolStripMenuItem;
+        private ToolStripMenuItem resetToolStripMenuItem;
+        private ToolStripMenuItem saveToolStripMenuItem;
     }
 }

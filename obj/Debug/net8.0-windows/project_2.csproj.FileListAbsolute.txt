@@ -30,3 +30,4 @@ C:\Users\asus\Desktop\4Th-Years\ملتيميديا\تطبيق عملي\مشرو�
 C:\Users\asus\Desktop\4Th-Years\ملتيميديا\تطبيق عملي\مشروع_1\project_2\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
 C:\Users\asus\Desktop\4Th-Years\ملتيميديا\تطبيق عملي\مشروع_1\project_2\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
 C:\Users\asus\Desktop\4Th-Years\ملتيميديا\تطبيق عملي\مشروع_1\project_2\obj\Debug\net8.0-windows\project_2.SampleCountSelector.resources
+C:\Users\asus\Desktop\4Th-Years\ملتيميديا\تطبيق عملي\مشروع_1\project_2\obj\Debug\net8.0-windows\project_2.sourcelink.json
