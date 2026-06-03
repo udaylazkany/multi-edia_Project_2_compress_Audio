@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\performancemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:performancemonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\admcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:admcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\compressionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:compressionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\deltacompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:deltacompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\deltadecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:deltadecompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|c:\\users\\asus\\desktop\\4th-years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{976EF2D4-D86C-45F2-98EC-060F970D04D4}|project_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ADMCompressor.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\ADMCompressor.cs",
+              "RelativeDocumentMoniker": "ADMCompressor.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\ADMCompressor.cs",
+              "RelativeToolTip": "ADMCompressor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T02:24:15.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompressionReport.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\CompressionReport.cs",
+              "RelativeDocumentMoniker": "CompressionReport.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\CompressionReport.cs",
+              "RelativeToolTip": "CompressionReport.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T02:02:24.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerformanceMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\PerformanceMonitor.cs",
+              "RelativeDocumentMoniker": "PerformanceMonitor.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\PerformanceMonitor.cs",
+              "RelativeToolTip": "PerformanceMonitor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:40:55.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeltaCompressor.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\DeltaCompressor.cs",
+              "RelativeDocumentMoniker": "DeltaCompressor.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\DeltaCompressor.cs",
+              "RelativeToolTip": "DeltaCompressor.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:37:46.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeltaDecompressor.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\DeltaDecompressor.cs",
+              "RelativeDocumentMoniker": "DeltaDecompressor.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\DeltaDecompressor.cs",
+              "RelativeToolTip": "DeltaDecompressor.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAD4vxIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:24:34.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAkwMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:21:06.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\4Th-Years\\\u0645\u0644\u062A\u064A\u0645\u064A\u062F\u064A\u0627\\\u062A\u0637\u0628\u064A\u0642 \u0639\u0645\u0644\u064A\\\u0645\u0634\u0631\u0648\u0639_1\\project_2\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T01:21:04.403Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

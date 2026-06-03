@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "g1lBxyw2L7k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\4Th-Years\\ملتيميديا\\تطبيق عملي\\مشروع_1\\project_2\\project_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\dlhsoft.ganttchartlibrary.wpf\\4.3.49\\dlhsoft.ganttchartlibrary.wpf.4.3.49.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\dlhsoft.ganttchartlightlibrary\\4.3.49\\dlhsoft.ganttchartlightlibrary.4.3.49.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\dlhsoft.hierarchicaldatalightlibrary\\4.0.10.8\\dlhsoft.hierarchicaldatalightlibrary.4.0.10.8.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio\\2.3.0\\naudio.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.asio\\2.3.0\\naudio.asio.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.core\\2.3.0\\naudio.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.midi\\2.3.0\\naudio.midi.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.wasapi\\2.3.0\\naudio.wasapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.winforms\\2.3.0\\naudio.winforms.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\naudio.winmm\\2.3.0\\naudio.winmm.2.3.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\winforms.datavisualization\\1.10.2\\winforms.datavisualization.1.10.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,502 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "DlhSoft.GanttChartLibrary.wpf/4.3.49": {
+        "type": "package",
+        "dependencies": {
+          "DlhSoft.HierarchicalDataLightLibrary": "4.0.10.8"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.dll": {},
+          "lib/netcoreapp3.1/DlhSoft.ProjectData.PertChart.LightWPF.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.dll": {},
+          "lib/netcoreapp3.1/DlhSoft.ProjectData.PertChart.LightWPF.Controls.dll": {}
+        }
+      },
+      "DlhSoft.GanttChartLightLibrary/4.3.49": {
+        "type": "package",
+        "dependencies": {
+          "DlhSoft.GanttChartLibrary.wpf": "4.3.49"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/_._": {}
+        }
+      },
+      "DlhSoft.HierarchicalDataLightLibrary/4.0.10.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/DlhSoft.HierarchicalData.LightWPF.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DlhSoft.HierarchicalData.LightWPF.Controls.dll": {}
+        }
+      },
+      "NAudio/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Asio": "2.3.0",
+          "NAudio.Core": "2.3.0",
+          "NAudio.Midi": "2.3.0",
+          "NAudio.Wasapi": "2.3.0",
+          "NAudio.WinForms": "2.3.0",
+          "NAudio.WinMM": "2.3.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/NAudio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Asio/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/NAudio.Asio.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Core/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Midi/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NAudio.WinForms/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.WinMM": "2.3.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NAudio.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "NAudio.WinMM/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NAudio.Core": "2.3.0"
+        },
+        "compile": {
+          "lib/net6.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.WinMM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "WinForms.DataVisualization/1.10.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
+            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DlhSoft.GanttChartLibrary.wpf/4.3.49": {
+      "sha512": "Q9prE3Sn5fglfciZzb57kKYzuj0luv6fwhKOkhDPiis2vZMNPa57wwH1onCqITntvayfLs+HQJ+5bvdzpfAN2g==",
+      "type": "package",
+      "path": "dlhsoft.ganttchartlibrary.wpf/4.3.49",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dlhsoft.ganttchartlibrary.wpf.4.3.49.nupkg.sha512",
+        "dlhsoft.ganttchartlibrary.wpf.nuspec",
+        "lib/net40-client/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.XML",
+        "lib/net40-client/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.dll",
+        "lib/net40-client/DlhSoft.ProjectData.PertChart.LightWPF.Controls.dll",
+        "lib/net40-client/DlhSoft.ProjectData.PertChart.LightWPF.Controls.xml",
+        "lib/net40-client/LicenseManagement.zip",
+        "lib/net45/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.XML",
+        "lib/net45/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.dll",
+        "lib/net45/DlhSoft.ProjectData.PertChart.LightWPF.Controls.dll",
+        "lib/net45/DlhSoft.ProjectData.PertChart.LightWPF.Controls.xml",
+        "lib/net45/LicenseManagement.zip",
+        "lib/netcoreapp3.1/DlhSoft.ProjectData.GanttChart.LightWPF.Controls.dll",
+        "lib/netcoreapp3.1/DlhSoft.ProjectData.PertChart.LightWPF.Controls.dll",
+        "lib/sl40/DlhSoft.ProjectData.GanttChart.Silverlight.Controls.XML",
+        "lib/sl40/DlhSoft.ProjectData.GanttChart.Silverlight.Controls.dll",
+        "lib/sl40/DlhSoft.ProjectData.PertChart.Silverlight.Controls.dll",
+        "lib/sl40/DlhSoft.ProjectData.PertChart.Silverlight.Controls.xml",
+        "lib/sl40/LicenseManagement.zip",
+        "lib/sl50/DlhSoft.ProjectData.GanttChart.Silverlight.Controls.XML",
+        "lib/sl50/DlhSoft.ProjectData.GanttChart.Silverlight.Controls.dll",
+        "lib/sl50/DlhSoft.ProjectData.PertChart.Silverlight.Controls.dll",
+        "lib/sl50/DlhSoft.ProjectData.PertChart.Silverlight.Controls.xml",
+        "lib/sl50/LicenseManagement.zip",
+        "lib/sl50/LightSwitch/DlhSoft.GanttCharts.vsix"
+      ]
+    },
+    "DlhSoft.GanttChartLightLibrary/4.3.49": {
+      "sha512": "jOfjs5PTb6KJCLZMRseQMhA9KRHh3pDczMMsOkqJTFMvuAN3iftpozW0tG9AH80innJGLI43JBh3IUwA/okXMQ==",
+      "type": "package",
+      "path": "dlhsoft.ganttchartlightlibrary/4.3.49",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dlhsoft.ganttchartlightlibrary.4.3.49.nupkg.sha512",
+        "dlhsoft.ganttchartlightlibrary.nuspec",
+        "lib/net40-client/_._",
+        "lib/net45/_._",
+        "lib/netcoreapp3.1/_._",
+        "lib/sl40/_._",
+        "lib/sl50/_._"
+      ]
+    },
+    "DlhSoft.HierarchicalDataLightLibrary/4.0.10.8": {
+      "sha512": "GlJI0uVuThUwgRsiS2TcL6sDf0oR+aDC98FBciGRJvc8x4iLisMdKOF7eHCe63u2sX+4SyZJZ36OQscnaddF8Q==",
+      "type": "package",
+      "path": "dlhsoft.hierarchicaldatalightlibrary/4.0.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dlhsoft.hierarchicaldatalightlibrary.4.0.10.8.nupkg.sha512",
+        "dlhsoft.hierarchicaldatalightlibrary.nuspec",
+        "lib/net40-client/DlhSoft.HierarchicalData.LightWPF.Controls.XML",
+        "lib/net40-client/DlhSoft.HierarchicalData.LightWPF.Controls.dll",
+        "lib/net40-client/LicenseManagement.zip",
+        "lib/net45/DlhSoft.HierarchicalData.LightWPF.Controls.XML",
+        "lib/net45/DlhSoft.HierarchicalData.LightWPF.Controls.dll",
+        "lib/net45/DlhSoft.OrganizationalChartLibrary.Controls.XML",
+        "lib/net45/DlhSoft.OrganizationalChartLibrary.Controls.dll",
+        "lib/net45/LicenseManagement.zip",
+        "lib/netcoreapp3.1/DlhSoft.HierarchicalData.LightWPF.Controls.dll",
+        "lib/sl40/DlhSoft.HierarchicalData.Silverlight.Controls.XML",
+        "lib/sl40/DlhSoft.HierarchicalData.Silverlight.Controls.dll",
+        "lib/sl40/LicenseManagement.zip",
+        "lib/sl40/System.Windows.Controls.Data.dll",
+        "lib/sl40/System.Windows.Controls.dll",
+        "lib/sl50/DlhSoft.HierarchicalData.Silverlight.Controls.XML",
+        "lib/sl50/DlhSoft.HierarchicalData.Silverlight.Controls.dll",
+        "lib/sl50/LicenseManagement.zip",
+        "lib/sl50/System.Windows.Controls.Data.dll",
+        "lib/sl50/System.Windows.Controls.dll"
+      ]
+    },
+    "NAudio/2.3.0": {
+      "sha512": "xN+Lzlu9DmXqBiL6XkP0VZmgTxZPdSGjVSWtKG9HKuar3LhIYNOIYQETieigS+QDS+nrs1QmHbBWWOru0nWA5A==",
+      "type": "package",
+      "path": "naudio/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.dll",
+        "lib/net472/NAudio.xml",
+        "lib/net6.0-windows7.0/NAudio.dll",
+        "lib/net6.0-windows7.0/NAudio.xml",
+        "lib/net6.0/NAudio.dll",
+        "lib/net6.0/NAudio.xml",
+        "lib/netcoreapp3.1/NAudio.dll",
+        "lib/netcoreapp3.1/NAudio.xml",
+        "naudio-icon.png",
+        "naudio.2.3.0.nupkg.sha512",
+        "naudio.nuspec"
+      ]
+    },
+    "NAudio.Asio/2.3.0": {
+      "sha512": "I+rAAPT8vmSEw4d4ie+AoSkrvNK6ylRrXznnjQKS+qZgTA9Jnt1Pxe0EaU8nXxOOq5h8ucBSWccBEw6I/J0nkQ==",
+      "type": "package",
+      "path": "naudio.asio/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0-windows7.0/NAudio.Asio.dll",
+        "lib/net8.0-windows7.0/NAudio.Asio.xml",
+        "lib/netstandard2.0/NAudio.Asio.dll",
+        "lib/netstandard2.0/NAudio.Asio.xml",
+        "naudio-icon.png",
+        "naudio.asio.2.3.0.nupkg.sha512",
+        "naudio.asio.nuspec"
+      ]
+    },
+    "NAudio.Core/2.3.0": {
+      "sha512": "jMd7r6dB6tAtXhOYL58ntPqwERNm1/Rhw5MKOIYvsnXzuX+PTGsa2VMam6n0npZYSwlSidKa4GAm4bFcXFUlcg==",
+      "type": "package",
+      "path": "naudio.core/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Core.dll",
+        "lib/netstandard2.0/NAudio.Core.xml",
+        "naudio-icon.png",
+        "naudio.core.2.3.0.nupkg.sha512",
+        "naudio.core.nuspec"
+      ]
+    },
+    "NAudio.Midi/2.3.0": {
+      "sha512": "t8wvPFPHHQOHhoNMCaDE8OiYZoJuxmY4H6UPBtmnf+xx7oQuajFCqlG4Q00ID+tiEyj471WeVb4Nkylr4tDoow==",
+      "type": "package",
+      "path": "naudio.midi/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NAudio.Midi.dll",
+        "lib/netstandard2.0/NAudio.Midi.xml",
+        "naudio-icon.png",
+        "naudio.midi.2.3.0.nupkg.sha512",
+        "naudio.midi.nuspec"
+      ]
+    },
+    "NAudio.Wasapi/2.3.0": {
+      "sha512": "y5K2BxrLnvohgu5znzg5wRsai3YcuNXfrpo68i7PmCQqpK5MC/R24e5aO3OyN/XhfRr12e0QYV0OnUWEHi5SzA==",
+      "type": "package",
+      "path": "naudio.wasapi/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0-windows10.0.26100/NAudio.Wasapi.dll",
+        "lib/net9.0-windows10.0.26100/NAudio.Wasapi.xml",
+        "lib/netstandard2.0/NAudio.Wasapi.dll",
+        "lib/netstandard2.0/NAudio.Wasapi.xml",
+        "naudio-icon.png",
+        "naudio.wasapi.2.3.0.nupkg.sha512",
+        "naudio.wasapi.nuspec"
+      ]
+    },
+    "NAudio.WinForms/2.3.0": {
+      "sha512": "vyKqFUlAZrZ0QPcCM1T+zimjYgC1cNDloHaiOdtV4S1eK4AGu3Dz1EE4yy/WgcneJwQNjGFaELY7b2TsL+g56w==",
+      "type": "package",
+      "path": "naudio.winforms/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/NAudio.WinForms.dll",
+        "lib/net472/NAudio.WinForms.xml",
+        "lib/netcoreapp3.1/NAudio.WinForms.dll",
+        "lib/netcoreapp3.1/NAudio.WinForms.xml",
+        "naudio-icon.png",
+        "naudio.winforms.2.3.0.nupkg.sha512",
+        "naudio.winforms.nuspec"
+      ]
+    },
+    "NAudio.WinMM/2.3.0": {
+      "sha512": "5G1dRjsZm50T3luyuqcmI2BSvj3K4ZJaD/x776/0Epj88qOsOryDZG40+MufwIk1UFJSFWhRobBqtJYFc8Ss4g==",
+      "type": "package",
+      "path": "naudio.winmm/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/NAudio.WinMM.dll",
+        "lib/net6.0/NAudio.WinMM.xml",
+        "lib/netstandard2.0/NAudio.WinMM.dll",
+        "lib/netstandard2.0/NAudio.WinMM.xml",
+        "naudio-icon.png",
+        "naudio.winmm.2.3.0.nupkg.sha512",
+        "naudio.winmm.nuspec"
+      ]
+    },
+    "WinForms.DataVisualization/1.10.2": {
+      "sha512": "zdnPgnY1nggdYhzldvwCLpSA5FI2pNsoAUtwNzCm6Dbxt6Und4a6FuZUFjoWgTlOYN0iPrlOqwaQuj54Owq9Mg==",
+      "type": "package",
+      "path": "winforms.datavisualization/1.10.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "NuGetReadme.md",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.dll",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.pdb",
+        "lib/net6.0-windows7.0/WinForms.DataVisualization.xml",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
+        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.dll",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.pdb",
+        "lib/net9.0-windows7.0/WinForms.DataVisualization.xml",
+        "winforms.datavisualization.1.10.2.nupkg.sha512",
+        "winforms.datavisualization.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "DlhSoft.GanttChartLightLibrary >= 4.3.49",
+      "NAudio >= 2.3.0",
+      "WinForms.DataVisualization >= 1.10.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\4Th-Years\\ملتيميديا\\تطبيق عملي\\مشروع_1\\project_2\\project_2.csproj",
+      "projectName": "project_2",
+      "projectPath": "C:\\Users\\asus\\Desktop\\4Th-Years\\ملتيميديا\\تطبيق عملي\\مشروع_1\\project_2\\project_2.csproj",
+      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\4Th-Years\\ملتيميديا\\تطبيق عملي\\مشروع_1\\project_2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "DlhSoft.GanttChartLightLibrary": {
+            "target": "Package",
+            "version": "[4.3.49, )"
+          },
+          "NAudio": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "WinForms.DataVisualization": {
+            "target": "Package",
+            "version": "[1.10.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
