@@ -731,7 +731,7 @@ namespace project_2
                     btnPlayPause.Text = "⏸";
 
                     // 6. تحديث واجهة المستخدم
-                    lblStatus.Text = "تشغيل الملف الأصلي";
+
                     this.Text = $"مشغل الصوت - {Path.GetFileName(currentFile)}";
 
                     // 7. عرض معلومات الملف الأصلي (اختياري)
