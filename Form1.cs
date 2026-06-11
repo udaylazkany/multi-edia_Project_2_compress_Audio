@@ -463,8 +463,10 @@ namespace project_2
             // ربط الأحداث
             monitor.ProgressChanged += p =>
             {
+                int safeValue = (int)p;
+                if (safeValue > 100) safeValue = 100;
                 if (win.progressBar.InvokeRequired)
-                    win.progressBar.Invoke(new Action(() => win.progressBar.Value = (int)p));
+                    win.progressBar.Invoke(new Action(() => win.progressBar.Value = safeValue));
                 else
                     win.progressBar.Value = (int)p;
             };
